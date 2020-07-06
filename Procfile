@@ -1,0 +1,1 @@
+web: gunicorn fullsend_list.wsgi
