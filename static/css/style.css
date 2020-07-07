@@ -7,3 +7,18 @@
     height: 250px; /* Your height here */
     overflow: hidden;
 }
+
+.card.card-content {
+    padding: 12px !important;
+
+}
+
+.card.card-content p{
+    -webkit-text-stroke: thick;
+    text-align: center;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    margin-left: 16px;
+    margin-right: none !important;
+}
